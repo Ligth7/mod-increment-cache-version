@@ -17,7 +17,7 @@ public:
         if(!sConfigMgr->GetOption<bool>("IncrementCacheVersion.Enable", true))
             return;
 
-        // do not increment if ClientCacheVersion is set to non-default value in worldserver.conf
+        // Do not increment if ClientCacheVersion is set to non-default value in worldserver.conf
         if (int32 clientCacheId = sConfigMgr->GetOption<int32>("ClientCacheVersion", 0))
         {
             if (clientCacheId != 0)
