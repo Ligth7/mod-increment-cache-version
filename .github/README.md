@@ -5,7 +5,7 @@
 [![Build Status](
 https://github.com/sogladev/mod-increment-cache-version/actions/workflows/core-build.yml/badge.svg?branch=master&event=push)](https://github.com/sogladev/mod-increment-cache-version)
 
-This module for [AzerothCore](http://www.azerothcore.org) automatically increments the client cache version on server startup, ensuring clients always have up-to-date cache data.
+This module for [AzerothCore](http://www.azerothcore.org) automatically increments the cache version on server startup, ensuring clients always have up-to-date cache data.
 
 > Something I noticed is not common knowledge is that the client has a version associated with its cache. If the server cache version does not match the client, the client will automatically clear its cache.
 >
