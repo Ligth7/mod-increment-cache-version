@@ -5,6 +5,7 @@
 #include "DatabaseEnv.h"
 #include "DatabaseEnvFwd.h"
 #include "Log.h"
+#include "QueryResult.h"
 #include "WorldScript.h"
 
 class mod_increment_cache_version_world : public WorldScript
